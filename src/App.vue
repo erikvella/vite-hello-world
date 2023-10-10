@@ -1,12 +1,12 @@
 <script>
 import FooterVue from './components/Footer.vue';
-import HeaderVue from './components/Header.vue';
+import Header from './components/Header.vue';
 
 export default {
 name: 'App',
 
 components:{
-  HeaderVue,
+  Header,
   FooterVue
 },
 
@@ -21,7 +21,7 @@ data(){
 
 
 <template>
-<HeaderVue />
+<Header />
 <main>
   <h1>{{ titolo }}</h1>
 
