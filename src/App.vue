@@ -22,7 +22,12 @@ data(){
 
 <template>
 <HeaderVue />
+<main>
   <h1>{{ titolo }}</h1>
+
+</main>
+
+  
 
   <FooterVue />
 </template>
@@ -32,5 +37,9 @@ data(){
 body{
   background-color: blue;
   color: whitesmoke;
+}
+
+main{
+  min-height: 400px;
 }
 </style>
